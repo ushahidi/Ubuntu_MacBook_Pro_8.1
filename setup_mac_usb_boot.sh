@@ -23,8 +23,8 @@
 #wget http://cdimages.ubuntu.com/releases/11.10/release/ubuntu-11.10-desktop-amd64+mac.iso
  
 # update these:
-UBUNTUISO="/path/to/ubuntu-11.10-desktop-amd64+mac.iso"
-USBDEV="/dev/sdX"
+UBUNTUISO=$1
+USBDEV=$2
 # NOTE: the USBDEV should not have any numbers in it. Replace 'X' with the
 # appropriate LETTER ONLY.
 
