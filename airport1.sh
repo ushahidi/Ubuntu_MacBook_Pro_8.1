@@ -1,4 +1,3 @@
-# http://www.ubuntubuzz.com/2011/10/macbook-pro-wireless-broadcom-bcm4331.html
 apt-get install build-essential automake make
 tar xf compat-wireless-2011-08-27.tar.bz2
 tar xf patch_bcm4331.tar.bz2
