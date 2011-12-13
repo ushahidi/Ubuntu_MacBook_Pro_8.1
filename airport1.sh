@@ -20,5 +20,6 @@ make
 tar xf ../broadcom-wl-5.100.138.tar.bz2
 export FIRMWARE_INSTALL_DIR="/lib/firmware"
 ./b43-fwcutter -w "$FIRMWARE_INSTALL_DIR"  broadcom-wl-5.100.138/linux/wl_apsta.o
-cd compat-wireless-2011-08-27
+cd ../compat-wireless-2011-08-27
 make wlunload
+shutdown -r now
