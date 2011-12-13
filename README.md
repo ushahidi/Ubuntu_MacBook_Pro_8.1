@@ -1,0 +1,1 @@
+`wget -qO- --no-check-certificate https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/download.sh`
