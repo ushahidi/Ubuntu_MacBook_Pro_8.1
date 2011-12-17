@@ -1,5 +1,7 @@
 # Ubuntu 11.10 on the MacBook Pro 8.1
 
+Note: If you have multiple internal or external drives connected, your device name might be different than `/dev/sdb`. If this is the case, please make the necessary adjustments to the commands below.
+
 1. Create the USB flash drive as follows on an existing Ubuntu machine which is connected to the internet:  
 `wget -O /tmp/create.sh https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/create.sh`  
 `sudo bash /tmp/create.sh /dev/sdb`  
