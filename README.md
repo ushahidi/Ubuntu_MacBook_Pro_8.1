@@ -1,5 +1,7 @@
 # Ubuntu 11.10 on the MacBook Pro 8.1
 
+## Installation
+
 Note: If you have multiple internal or external drives connected, your device name might be different than `/dev/sdb`. If this is the case, please make the necessary adjustments to the commands below.
 
 1. Create the USB flash drive as follows on an existing Ubuntu machine which is connected to the internet:  
@@ -14,3 +16,11 @@ Note: If you have multiple internal or external drives connected, your device na
 `sudo mount /dev/sdb /tmp/usb`  
 `sudo bash /tmp/usb/wireless/wireless.sh`
 5. Your system will reboot and then you should be able to use the wireless as usual.
+
+## Licensing
+
+* [GNU General Public License](http://www.gnu.org/copyleft/gpl.html)
+
+## Support
+
+* [SwiftRiver Google Group](http://groups.google.com/group/swiftriver)
