@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp -r /tmp/usb/wireless /tmp/wireless
+cd /tmp/wireless
 tar xjf compat-wireless-2.6.tar.bz2
 cd compat-wireless-*
 scripts/driver-select b43
@@ -16,4 +18,6 @@ cd ../compat-wireless-*
 make wlunload
 echo b43 >> /etc/modules
 echo 'SUSPEND_MODULES="b43"' >> /etc/pm/config.d/default
+cd /tmp
+rm -rf wireless
 shutdown -r now

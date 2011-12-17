@@ -21,6 +21,7 @@ mkdir /tmp/usb/wireless
 wget -O /tmp/usb/wireless/compat-wireless-2.6.tar.bz2 http://linuxwireless.org/download/compat-wireless-2.6/compat-wireless-2.6.tar.bz2
 wget -O /tmp/usb/wireless/b43-fwcutter-015.tar.bz2 http://bu3sch.de/b43/fwcutter/b43-fwcutter-015.tar.bz2
 wget -O /tmp/usb/wireless/broadcom-wl-5.100.138.tar.bz2 http://www.lwfinger.com/b43-firmware/broadcom-wl-5.100.138.tar.bz2
+wget -O /tmp/usb/wireless/wireless.sh https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/wireless.sh
 
 umount /tmp/iso $1
 rmdir /tmp/{iso,usb}
