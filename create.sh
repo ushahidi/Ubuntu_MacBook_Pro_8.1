@@ -23,6 +23,7 @@ wget -O /tmp/usb/wireless/b43-fwcutter-015.tar.bz2 http://bu3sch.de/b43/fwcutter
 wget -O /tmp/usb/wireless/broadcom-wl-5.100.138.tar.bz2 http://www.lwfinger.com/b43-firmware/broadcom-wl-5.100.138.tar.bz2
 
 umount /tmp/iso $1
-rm /tmp/{iso,usb,ubuntu-11.10-desktop-amd64.iso}
+rmdir /tmp/{iso,usb}
+rm /tmp/ubuntu-11.10-desktop-amd64.iso
 
 syslinux $1
