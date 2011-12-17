@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget -O /tmp/ubuntu-11.10-desktop-amd64.iso http://nl.releases.ubuntu.com/releases/11.10/ubuntu-11.10-desktop-amd64.iso
+wget -cO /tmp/ubuntu-11.10-desktop-amd64.iso http://nl.releases.ubuntu.com/releases/11.10/ubuntu-11.10-desktop-amd64.iso
 
 umount $1
 mkfs.vfat -I $1
