@@ -24,3 +24,9 @@ Note: If you have multiple internal or external drives connected, your device na
 ## Support
 
 * [SwiftRiver Google Group](http://groups.google.com/group/swiftriver)
+
+## See Also
+
+* [MacBook Pro](http://en.wikipedia.org/wiki/MacBook_Pro)
+* [Ubuntu](http://www.ubuntu.com/)
+* [Ushahidi.com](http://www.ushahidi.com/)
