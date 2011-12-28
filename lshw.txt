@@ -1,0 +1,522 @@
+user-macbookpro
+    description: Notebook
+    product: MacBookPro8,1 (System SKU#)
+    vendor: Apple Inc.
+    version: 1.0
+    serial: C17FMJLSDH2G
+    width: 64 bits
+    capabilities: smbios-2.4 dmi-2.4 vsyscall64 vsyscall32
+    configuration: boot=normal chassis=notebook family=MacBook Pro sku=System SKU# uuid=AED037BB-225C-DE5C-A883-8E026B2DDB40
+  *-core
+       description: Motherboard
+       product: Mac-94245B3640C91C81
+       vendor: Apple Inc.
+       physical id: 0
+       version: MacBookPro8,1
+       serial: C0211770AXPDM6PA3
+       slot: Part Component
+     *-cpu:0
+          description: CPU
+          product: Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz
+          vendor: Intel Corp.
+          physical id: 0
+          bus info: cpu@0
+          version: Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz
+          slot: U2E1
+          size: 800MHz
+          capacity: 800MHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm sse4_1 sse4_2 x2apic popcnt aes xsave avx lahf_lm ida arat xsaveopt pln pts tpr_shadow vnmi flexpriority ept vpid cpufreq
+        *-cache:0
+             description: L1 cache
+             physical id: 2
+             slot: Unknown
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: asynchronous internal write-back
+        *-cache:1
+             description: L2 cache
+             physical id: 3
+             slot: Unknown
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: asynchronous internal write-back instruction
+        *-cache:2
+             description: L3 cache
+             physical id: 4
+             slot: Unknown
+             size: 3KiB
+             capacity: 3KiB
+             capabilities: asynchronous internal write-back instruction
+     *-cache:0
+          description: L1 cache
+          physical id: 1
+          slot: Unknown
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: asynchronous internal write-back
+     *-cpu:1
+          description: CPU
+          vendor: Intel(R) Corporation
+          physical id: 5
+          bus info: cpu@1
+          version: Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz
+          slot: U2E1
+          size: 800MHz
+          capacity: 800MHz
+          capabilities: cpufreq
+        *-cache:0
+             description: L1 cache
+             physical id: 7
+             slot: Unknown
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: asynchronous internal write-back
+        *-cache:1
+             description: L2 cache
+             physical id: 8
+             slot: Unknown
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: asynchronous internal write-back instruction
+        *-cache:2
+             description: L3 cache
+             physical id: 9
+             slot: Unknown
+             size: 3KiB
+             capacity: 3KiB
+             capabilities: asynchronous internal write-back instruction
+     *-cache:1
+          description: L1 cache
+          physical id: 6
+          slot: Unknown
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: asynchronous internal write-back
+     *-cpu:2
+          description: CPU
+          vendor: Intel(R) Corporation
+          physical id: a
+          bus info: cpu@2
+          version: Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz
+          slot: U2E1
+          size: 2301MHz
+          capacity: 2301MHz
+          capabilities: cpufreq
+        *-cache:0
+             description: L1 cache
+             physical id: c
+             slot: Unknown
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: asynchronous internal write-back
+        *-cache:1
+             description: L2 cache
+             physical id: d
+             slot: Unknown
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: asynchronous internal write-back instruction
+        *-cache:2
+             description: L3 cache
+             physical id: e
+             slot: Unknown
+             size: 3KiB
+             capacity: 3KiB
+             capabilities: asynchronous internal write-back instruction
+     *-cache:2
+          description: L1 cache
+          physical id: b
+          slot: Unknown
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: asynchronous internal write-back
+     *-cpu:3
+          description: CPU
+          vendor: Intel(R) Corporation
+          physical id: f
+          bus info: cpu@3
+          version: Intel(R) Core(TM) i5-2415M CPU @ 2.30GHz
+          slot: U2E1
+          size: 800MHz
+          capacity: 800MHz
+          capabilities: cpufreq
+        *-cache:0
+             description: L1 cache
+             physical id: 11
+             slot: Unknown
+             size: 32KiB
+             capacity: 32KiB
+             capabilities: asynchronous internal write-back
+        *-cache:1
+             description: L2 cache
+             physical id: 12
+             slot: Unknown
+             size: 256KiB
+             capacity: 256KiB
+             capabilities: asynchronous internal write-back instruction
+        *-cache:2
+             description: L3 cache
+             physical id: 13
+             slot: Unknown
+             size: 3KiB
+             capacity: 3KiB
+             capabilities: asynchronous internal write-back instruction
+     *-cache:3
+          description: L1 cache
+          physical id: 10
+          slot: Unknown
+          size: 32KiB
+          capacity: 32KiB
+          capabilities: asynchronous internal write-back
+     *-memory
+          description: System Memory
+          physical id: 14
+          slot: System board or motherboard
+          size: 4GiB
+        *-bank:0
+             description: SODIMM DDR3 Synchronous 1333 MHz (0.8 ns)
+             product: M471B5773DH0-CH9
+             vendor: Samsung
+             physical id: 0
+             serial: 0x62377CFB
+             slot: DIMM0
+             size: 2GiB
+             clock: 1333MHz (0.8ns)
+        *-bank:1
+             description: SODIMM DDR3 Synchronous 1333 MHz (0.8 ns)
+             product: M471B5773DH0-CH9
+             vendor: Samsung
+             physical id: 1
+             serial: 0x62377CF7
+             slot: DIMM0
+             size: 2GiB
+             clock: 1333MHz (0.8ns)
+     *-firmware
+          description: BIOS
+          vendor: Apple Inc.
+          physical id: 1a
+          version: MBP81.88Z.0047.B24.1110141131
+          date: 10/14/11
+          size: 1MiB
+          capacity: 8128KiB
+          capabilities: pci upgrade shadowing cdboot bootselect acpi ieee1394boot smartbattery netboot
+     *-pci
+          description: Host bridge
+          product: 2nd Generation Core Processor Family DRAM Controller
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 09
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=agpgart-intel
+          resources: irq:0
+        *-pci:0
+             description: PCI bridge
+             product: Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 09
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:40 memory:a0800000-a08fffff
+        *-pci:1
+             description: PCI bridge
+             product: Xeon E3-1200/2nd Generation Core Processor Family PCI Express Root Port
+             vendor: Intel Corporation
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 09
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm msi pciexpress normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:41 ioport:3000(size=4096) memory:a0a00000-a4efffff ioport:a4f00000(size=67108864)
+        *-display
+             description: VGA compatible controller
+             product: 2nd Generation Core Processor Family Integrated Graphics Controller
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 09
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msi pm vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:47 memory:a0000000-a03fffff memory:90000000-9fffffff ioport:2000(size=64)
+        *-communication
+             description: Communication controller
+             product: 6 Series/C200 Series Chipset Family MEI Controller #1
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi bus_master cap_list
+             configuration: driver=mei latency=0
+             resources: irq:16 memory:a0907100-a090710f
+        *-usb:0
+             description: USB Controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 1a
+             bus info: pci@0000:00:1a.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:21 ioport:2120(size=32)
+        *-usb:1
+             description: USB Controller
+             product: 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #2
+             vendor: Intel Corporation
+             physical id: 1a.7
+             bus info: pci@0000:00:1a.7
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci_hcd latency=0
+             resources: irq:23 memory:a0906c00-a0906fff
+        *-multimedia
+             description: Audio device
+             product: 6 Series/C200 Series Chipset Family High Definition Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             capabilities: pm msi pciexpress bus_master cap_list
+             configuration: driver=HDA Intel latency=0
+             resources: irq:46 memory:a0900000-a0903fff
+        *-pci:2
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 memory:a0700000-a07fffff ioport:a0400000(size=1048576)
+           *-network
+                description: Ethernet interface
+                product: NetXtreme BCM57765 Gigabit Ethernet PCIe
+                vendor: Broadcom Corporation
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: eth0
+                version: 10
+                serial: c8:2a:14:2b:ec:26
+                capacity: 1Gbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt 1000bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=tg3 driverversion=3.119 firmware=57765-v1.37 latency=0 link=no multicast=yes port=twisted pair
+                resources: irq:16 memory:a0400000-a040ffff memory:a0410000-a041ffff
+           *-generic
+                description: SD Host controller
+                product: NetXtreme BCM57765 Memory Card Reader
+                vendor: Broadcom Corporation
+                physical id: 0.1
+                bus info: pci@0000:02:00.1
+                version: 10
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=sdhci-pci latency=0
+                resources: irq:17 memory:a0420000-a042ffff
+        *-pci:3
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 2
+             vendor: Intel Corporation
+             physical id: 1c.1
+             bus info: pci@0000:00:1c.1
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 memory:a0600000-a06fffff
+           *-network
+                description: Network controller
+                product: BCM4331 802.11a/b/g/n
+                vendor: Broadcom Corporation
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                version: 02
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=bcma-pci-bridge latency=0
+                resources: irq:17 memory:a0600000-a0603fff
+        *-pci:4
+             description: PCI bridge
+             product: 6 Series/C200 Series Chipset Family PCI Express Root Port 3
+             vendor: Intel Corporation
+             physical id: 1c.2
+             bus info: pci@0000:00:1c.2
+             version: b5
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pciexpress msi pm normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44 memory:a0500000-a05fffff
+           *-firewire
+                description: FireWire (IEEE 1394)
+                product: FW643 PCI Express1394b Controller (PHY/Link)
+                vendor: Agere Systems
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                version: 08
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress ohci bus_master cap_list
+                configuration: driver=firewire_ohci latency=0
+                resources: irq:48 memory:a0500000-a0500fff
+        *-usb:2
+             description: USB Controller
+             product: Intel Corporation
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master cap_list
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:19 ioport:20c0(size=32)
+        *-usb:3
+             description: USB Controller
+             product: 6 Series/C200 Series Chipset Family USB Enhanced Host Controller #1
+             vendor: Intel Corporation
+             physical id: 1d.7
+             bus info: pci@0000:00:1d.7
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pm debug ehci bus_master cap_list
+             configuration: driver=ehci_hcd latency=0
+             resources: irq:22 memory:a0906800-a0906bff
+        *-isa
+             description: ISA bridge
+             product: HM65 Express Chipset Family LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 05
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: latency=0
+        *-storage
+             description: SATA controller
+             product: 6 Series/C200 Series Chipset Family 6 port SATA AHCI Controller
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             logical name: scsi0
+             logical name: scsi1
+             version: 05
+             width: 32 bits
+             clock: 66MHz
+             capabilities: storage msi pm ahci_1.0 bus_master cap_list emulated
+             configuration: driver=ahci latency=0
+             resources: irq:45 ioport:2148(size=8) ioport:215c(size=4) ioport:2140(size=8) ioport:2158(size=4) ioport:2060(size=32) memory:a0906000-a09067ff
+           *-disk
+                description: ATA Disk
+                product: ST9320325ASG
+                vendor: Seagate
+                physical id: 0
+                bus info: scsi@0:0.0.0
+                logical name: /dev/sda
+                version: 0009
+                serial: 5VD6R42D
+                size: 298GiB (320GB)
+                capabilities: gpt-1.00 partitioned partitioned:gpt
+                configuration: ansiversion=5 guid=9d06784d-ea71-40c3-8035-a9525876abc4
+              *-volume:0
+                   description: Windows FAT volume
+                   vendor: MSWIN4.1
+                   physical id: 1
+                   bus info: scsi@0:0.0.0,1
+                   logical name: /dev/sda1
+                   logical name: /boot/efi
+                   version: FAT16
+                   serial: 8e2b-c378
+                   size: 15EiB
+                   capabilities: boot fat initialized
+                   configuration: FATs=2 filesystem=fat mount.fstype=vfat mount.options=rw,relatime,fmask=0022,dmask=0022,codepage=cp437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro state=mounted
+              *-volume:1
+                   description: EXT4 volume
+                   vendor: Linux
+                   physical id: 2
+                   bus info: scsi@0:0.0.0,2
+                   logical name: /dev/sda2
+                   logical name: /
+                   version: 1.0
+                   serial: 82a71acf-9c97-4763-b2fd-469aae57381b
+                   size: 294GiB
+                   capacity: 294GiB
+                   capabilities: journaled extended_attributes large_files huge_files dir_nlink recover extents ext4 ext2 initialized
+                   configuration: created=2011-12-17 21:49:58 filesystem=ext4 lastmountpoint=/ modified=2011-12-27 23:42:24 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro,user_xattr,acl,barrier=1,data=ordered mounted=2011-12-28 18:26:09 state=mounted
+              *-volume:2
+                   description: Linux swap volume
+                   physical id: 3
+                   bus info: scsi@0:0.0.0,3
+                   logical name: /dev/sda3
+                   version: 1
+                   serial: 16ee1a2c-b98a-4cb0-85db-44aaaf3d1f8c
+                   size: 4009MiB
+                   capacity: 4009MiB
+                   capabilities: nofs swap initialized
+                   configuration: filesystem=swap pagesize=4096
+           *-cdrom
+                description: DVD writer
+                product: DVD-R   UJ-8A8
+                vendor: MATSHITA
+                physical id: 1
+                bus info: scsi@1:0.0.0
+                logical name: /dev/cdrom3
+                logical name: /dev/cdrw3
+                logical name: /dev/dvd3
+                logical name: /dev/dvdrw3
+                logical name: /dev/scd0
+                logical name: /dev/sr0
+                version: HA13
+                capabilities: removable audio cd-r cd-rw dvd dvd-r
+                configuration: ansiversion=5 status=open
+        *-serial UNCLAIMED
+             description: SMBus
+             product: 6 Series/C200 Series Chipset Family SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 05
+             width: 64 bits
+             clock: 33MHz
+             configuration: latency=0
+             resources: memory:a0907000-a09070ff ioport:efa0(size=32)
+  *-battery
+       product: Unknown
+       vendor: Unknown
+       physical id: 1
+       version: Unknown
+       serial: Unknown
+       slot: Unknown
+  *-network
+       description: Wireless interface
+       physical id: 2
+       logical name: wlan0
+       serial: e4:ce:8f:11:63:16
+       capabilities: ethernet physical wireless
+       configuration: broadcast=yes driver=b43 driverversion=3.0.0-12-generic firmware=666.2 ip=192.168.33.100 link=yes multicast=yes wireless=IEEE 802.11bg
