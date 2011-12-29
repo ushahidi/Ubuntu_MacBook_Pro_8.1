@@ -19,9 +19,11 @@ Note: If you have multiple internal or external drives connected, your device na
 
 ## Openbox
 
-If you prefer to run Openbox, here is one possible configuration that you are welcome to use.
+If you prefer to run Openbox, here is one possible configuration you are welcome to use.
 
-    
+    wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/openbox.sh | sudo bash
+
+If you have a wallpaper image located at `/home/user/wallpaper.jpg`, this will be loaded. Customise `/etc/xdg/openbox/autostart` to change.
 
 ## Licensing
 
