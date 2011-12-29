@@ -17,6 +17,12 @@ Note: If you have multiple internal or external drives connected, your device na
 `sudo bash /tmp/usb/wireless/wireless.sh`
 5. Your system will reboot and then you should be able to use the wireless as usual.
 
+## Openbox
+
+If you prefer to run Openbox, here is one possible configuration that you are welcome to use.
+
+    
+
 ## Licensing
 
 * [GNU General Public License](http://www.gnu.org/copyleft/gpl.html)
