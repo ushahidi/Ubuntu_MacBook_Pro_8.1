@@ -21,3 +21,11 @@ echo 'feh --bg-max /home/user/wallpaper.jpg &' >> /etc/xdg/openbox/autostart
 echo 'gpomme &' >> /etc/xdg/openbox/autostart
 echo 'tint2 &' >> /etc/xdg/openbox/autostart
 echo 'xfce4-power-manager &' >> /etc/xdg/openbox/autostart
+
+sed -i '/<number>/c<number>1</number>' /etc/xdg/openbox/rc.xml
+
+sed -i '/EndSection/iOption "TabButton2" "3"' /usr/share/X11/xorg.conf.d/50-synaptics.conf
+sed -i '/EndSection/iOption "TabButton3" "0"' /usr/share/X11/xorg.conf.d/50-synaptics.conf
+
+synclient TapButton2=3
+synclient TapButton3=0
