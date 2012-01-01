@@ -26,6 +26,8 @@ sed -i '/<number>/c<number>1</number>' /etc/xdg/openbox/rc.xml
 
 sed -i '/EndSection/iOption "TabButton2" "3"' /usr/share/X11/xorg.conf.d/50-synaptics.conf
 sed -i '/EndSection/iOption "TabButton3" "0"' /usr/share/X11/xorg.conf.d/50-synaptics.conf
+sed -i '/EndSection/iOption "FingerHigh" "80"' /usr/share/X11/xorg.conf.d/50-synaptics.conf
 
 synclient TapButton2=3
 synclient TapButton3=0
+synclient FingerHigh=80
