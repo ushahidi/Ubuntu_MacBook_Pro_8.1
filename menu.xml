@@ -12,6 +12,7 @@
   <item label="XChat"><action name="Execute"><execute>xchat</execute></action></item>
   <separator/>
   <item label="Gimp"><action name="Execute"><execute>gimp</execute></action></item>
+  <item label="GVIM"><action name="Execute"><execute>gvim</execute></action></item>
   <item label="Terminal (Gnome)"><action name="Execute"><execute>gnome-terminal</execute></action></item>
   <item label="Terminal (LXDE)"><action name="Execute"><execute>lxterminal</execute></action></item>
   <item label="Thunar"><action name="Execute"><execute>thunar</execute></action></item>
