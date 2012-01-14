@@ -39,10 +39,13 @@ echo 'gpomme &' >> /etc/xdg/openbox/autostart
 echo 'tint2 &' >> /etc/xdg/openbox/autostart
 
 # Power Manager Applet
-echo 'xfce4-power-manager &' >> /etc/xdg/openbox/autostart
+echo 'xfce4-power-manager' >> /etc/xdg/openbox/autostart
 
 # Disable Multiple Desktops
 sed -i '/<number>/c<number>1</number>' /etc/xdg/openbox/rc.xml
 
 # Display Openbox Menu on Right Click in Taskbar
 sed -i '/wm_menu = 0/cwm_menu = 1' /etc/xdg/tint2/tint2rc
+
+# Install Customised Menu
+wget -O /etc/xdg/openbox/menu.xml https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/menu.xml

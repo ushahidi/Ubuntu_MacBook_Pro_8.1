@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/">
+ <menu id="root-menu" label="Openbox 3">
+  <item label="Chromium"><action name="Execute"><execute>chromium-browser</execute></action></item>
+  <item label="Chromium (8080)"><action name="Execute"><execute>chromium-browser --proxy-server="socks5://127.0.0.1:8080"</execute></action></item>
+  <item label="Chromium (Tor)"><action name="Execute"><execute>chromium-browser --proxy-server="socks5://127.0.0.1:9050"</execute></action></item>
+  <separator/>
+  <item label="Firefox"><action name="Execute"><execute>firefox</execute></action></item>
+  <item label="Thunderbird"><action name="Execute"><execute>thunderbird</execute></action></item>
+  <item label="Vidalia"><action name="Execute"><execute>vidalia</execute></action></item>
+  <item label="XChat"><action name="Execute"><execute>xchat</execute></action></item>
+  <separator/>
+  <item label="Gimp"><action name="Execute"><execute>gimp</execute></action></item>
+  <item label="Terminal (Gnome)"><action name="Execute"><execute>gnome-terminal</execute></action></item>
+  <item label="Terminal (LXDE)"><action name="Execute"><execute>lxterminal</execute></action></item>
+  <item label="Thunar"><action name="Execute"><execute>thunar</execute></action></item>
+  <item label="VLC"><action name="Execute"><execute>vlc</execute></action></item>
+  <item label="Wireshark"><action name="Execute"><execute>gksudo wireshark</execute></action></item>
+  <item label="Zenmap"><action name="Execute"><execute>gksudo zenmap</execute></action></item>
+  <separator/>
+  <item label="Configure Openbox"><action name="Execute"><execute>obconf</execute></action></item>
+  <item label="Reload Configuration"><action name="Reconfigure"/></item>
+  <item label="Restart Openbox"><action name="Restart"/></item>
+  <separator/>
+  <item label="Logout"><action name="Exit"/></item>
+  <item label="Restart"><action name="Execute"><execute>gksudo shutdown -r now</execute></action></item>
+  <item label="Shut Down"><action name="Execute"><execute>gksudo shutdown -h now</execute></action></item>
+ </menu>
+</openbox_menu>
