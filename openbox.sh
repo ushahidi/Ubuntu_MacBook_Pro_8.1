@@ -30,7 +30,7 @@ echo 'synclient TapButton3=0' >> /etc/xdg/openbox/autostart
 echo 'synclient FingerHigh=80' >> /etc/xdg/openbox/autostart
 
 # Display the Desktop Wallpaper
-echo 'feh --bg-max /home/user/wallpaper.jpg &' >> /etc/xdg/openbox/autostart
+echo 'feh --bg-max /usr/share/backgrounds/PurpleDancers_by_Emilio_Merlino.jpg' >> /etc/xdg/openbox/autostart
 
 # Visual Display for Apple Hotkeys
 echo 'gpomme &' >> /etc/xdg/openbox/autostart

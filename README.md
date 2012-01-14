@@ -23,8 +23,6 @@ If you prefer to run Openbox, here is one possible configuration you are welcome
 
     wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/openbox.sh | sudo bash
 
-If you have a wallpaper image located at `/home/user/wallpaper.jpg`, this will be loaded. Customise `/etc/xdg/openbox/autostart` to change.
-
 ## Licensing
 
 * [GNU General Public License](http://www.gnu.org/copyleft/gpl.html)
