@@ -13,9 +13,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+# Perform Unattended Install
+export DEBIAN_FRONTEND=noninteractive
+
 # Install Packages
 apt-get update
-apt-get install -y openbox feh gpomme tint2 xfce4-power-manager
+apt-get install -y openbox feh gpomme tint2 xfce4-power-manager chromium-browser vidalia xchat gimp lxterminal thunar vlc wireshark zenmap
 
 # Configure Keyboard Layout
 echo 'setxkbmap macintosh_vndr/us' >> /etc/xdg/openbox/autostart
