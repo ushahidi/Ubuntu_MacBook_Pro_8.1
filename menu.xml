@@ -6,6 +6,7 @@
   <item label="Chromium (Tor)"><action name="Execute"><execute>chromium-browser --proxy-server="socks5://127.0.0.1:9050"</execute></action></item>
   <separator/>
   <item label="Firefox"><action name="Execute"><execute>firefox</execute></action></item>
+  <item label="Skype"><action name="Execute"><execute>skype</execute></action></item>
   <item label="Thunderbird"><action name="Execute"><execute>thunderbird</execute></action></item>
   <item label="Vidalia"><action name="Execute"><execute>vidalia</execute></action></item>
   <item label="XChat"><action name="Execute"><execute>xchat</execute></action></item>

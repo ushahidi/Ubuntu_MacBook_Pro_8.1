@@ -20,6 +20,12 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get install -y openbox feh gpomme tint2 xfce4-power-manager chromium-browser vidalia xchat gimp lxterminal thunar vlc wireshark zenmap
 
+# Install Skype
+wget -O /tmp/skype.deb http://www.skype.com/go/getskype-linux-beta-ubuntu-64
+dpkg -i /tmp/skype.deb
+apt-get install -fy
+rm -f /tmp/skype.deb
+
 # Configure Keyboard Layout
 echo 'setxkbmap macintosh_vndr/us' >> /etc/xdg/openbox/autostart
 
