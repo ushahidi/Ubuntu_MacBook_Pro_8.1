@@ -25,7 +25,7 @@
   <item label="Restart Openbox"><action name="Restart"/></item>
   <separator/>
   <item label="Logout"><action name="Exit"/></item>
-  <item label="Restart"><action name="Execute"><execute>gksudo shutdown -r now</execute></action></item>
-  <item label="Shut Down"><action name="Execute"><execute>gksudo shutdown -h now</execute></action></item>
+  <item label="Restart"><action name="Execute"><execute>gksudo "shutdown -r now"</execute></action></item>
+  <item label="Shut Down"><action name="Execute"><execute>gksudo "shutdown -h now"</execute></action></item>
  </menu>
 </openbox_menu>
