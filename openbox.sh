@@ -41,9 +41,6 @@ echo 'synclient FingerHigh=100' >> /etc/xdg/openbox/autostart
 # Enable Two-Finger Vertical Scrolling
 echo 'synclient VertTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
 
-# Enable Two-Finger Vertical Scrolling
-echo 'synclient VertTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
-
 # Enable Two-Finger Horizontal Scrolling
 echo 'synclient HorizTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
 
