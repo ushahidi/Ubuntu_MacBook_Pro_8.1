@@ -36,7 +36,16 @@ echo 'synclient TapButton2=3' >> /etc/xdg/openbox/autostart
 echo 'synclient TapButton3=0' >> /etc/xdg/openbox/autostart
 
 # Decrease Touchpad Sensitivity
-echo 'synclient FingerHigh=80' >> /etc/xdg/openbox/autostart
+echo 'synclient FingerHigh=100' >> /etc/xdg/openbox/autostart
+
+# Enable Two-Finger Vertical Scrolling
+echo 'synclient VertTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
+
+# Enable Two-Finger Vertical Scrolling
+echo 'synclient VertTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
+
+# Enable Two-Finger Horizontal Scrolling
+echo 'synclient HorizTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
 
 # Display the Desktop Wallpaper
 echo 'feh --bg-max /usr/share/backgrounds/PurpleDancers_by_Emilio_Merlino.jpg' >> /etc/xdg/openbox/autostart
