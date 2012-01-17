@@ -18,7 +18,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 # Install Packages
 apt-get update
-apt-get install -y openbox feh gpomme tint2 xfce4-power-manager chromium-browser vidalia xchat gimp vim-gtk lxterminal thunar vlc wireshark zenmap
+apt-get install -y openbox feh gpomme tint2 xfce4-power-manager chromium-browser camorama vidalia xchat gimp vim-gtk lxterminal thunar vlc wireshark zenmap
 
 # Install Skype
 wget -O /tmp/skype.deb http://www.skype.com/go/getskype-linux-beta-ubuntu-64

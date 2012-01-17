@@ -11,6 +11,7 @@
   <item label="Vidalia"><action name="Execute"><execute>vidalia</execute></action></item>
   <item label="XChat"><action name="Execute"><execute>xchat</execute></action></item>
   <separator/>
+  <item label="Camorama"><action name="Execute"><execute>camorama</execute></action></item>
   <item label="Gimp"><action name="Execute"><execute>gimp</execute></action></item>
   <item label="GVIM"><action name="Execute"><execute>gvim</execute></action></item>
   <item label="Terminal (Gnome)"><action name="Execute"><execute>gnome-terminal</execute></action></item>
