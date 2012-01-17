@@ -35,8 +35,8 @@ mv /tmp/usb/isolinux /tmp/usb/syslinux
 mv /tmp/usb/syslinux/isolinux.cfg /tmp/usb/syslinux/syslinux.cfg
 
 # Add "nomodeset" Kernel Flag
-sed -i 's/quiet splash/quiet splash nomodeset/g' /tmp/usb/boot/grub/loopback.cfg
-sed -i 's/quiet splash/quiet splash nomodeset/g' /tmp/usb/syslinux/txt.cfg
+#sed -i 's/quiet splash/quiet splash nomodeset/g' /tmp/usb/boot/grub/loopback.cfg
+#sed -i 's/quiet splash/quiet splash nomodeset/g' /tmp/usb/syslinux/txt.cfg
 
 # Download Wireless Drivers and Scripts to USB Flash Drive for Offline Installation
 mkdir /tmp/usb/wireless
