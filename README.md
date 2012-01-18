@@ -2,8 +2,6 @@
 
 ## Installation
 
-Note: If you have multiple internal or external drives connected, your device name might be different than `/dev/sdb`. If this is the case, please make the necessary adjustments to the commands below.
-
 1. Insert a 2GB (or larger) USB flash drive into your MacBook Pro. Note that all the contents of this drive will be erased.
 2. Execute the following at a terminal on an existing Ubuntu machine (which is connected to the internet):  
 `wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/create.sh | sudo bash`
