@@ -2,17 +2,18 @@
 
 ## Installation
 
-1. Insert a 2GB (or larger) USB flash drive into your MacBook Pro. Note that all the contents of this drive will be erased.
-2. Execute the following at a terminal on an existing Ubuntu machine (which is connected to the internet):  
+1. Insert a 2GB (or larger) USB flash drive into an existing Ubuntu machine, which is connected to the internet. Note that all the contents of this drive will be erased.
+2. Execute the following at the terminal:  
 `wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/create.sh | sudo bash`
-3. Reboot, hold down the option key right after the bootup sound and select the flash drive.
-4. Install as usual but remember to select the Macintosh keyboard layout when prompted during the installation.
-5. Boot into your new installation.
-6. Copy the directory named `wireless` from the USB flash drive to some other location (`/tmp` is great).
-7. Open the terminal, change to this directory and execute the `wireless.sh` script. For example:  
+3. Take the USB flash drive out and insert it into your Macbook Pro.
+4. Reboot, hold down the option key right after the bootup sound and select the flash drive.
+5. Install as usual but remember to select the Macintosh keyboard layout when prompted during the installation.
+6. Boot into your new installation.
+7. Copy the directory named `wireless` from the USB flash drive to some other location (`/tmp` is great).
+8. Open the terminal, change to this directory and execute the `wireless.sh` script. For example:  
 `cd /tmp/wireless`  
 `bash wireless.sh`
-8. You can now delete the copied directory and reboot your system for the changes to take effect.
+9. You can now delete the copied directory and reboot your system for the changes to take effect.
 
 ## Openbox
 
