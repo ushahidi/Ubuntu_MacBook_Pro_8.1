@@ -14,6 +14,7 @@
   <item label="Camorama"><action name="Execute"><execute>camorama</execute></action></item>
   <item label="Gimp"><action name="Execute"><execute>gimp</execute></action></item>
   <item label="GVIM"><action name="Execute"><execute>gvim</execute></action></item>
+  <item label="LibreOffice"><action name="Execute"><execute>libreoffice</execute></action></item>
   <item label="Thunar"><action name="Execute"><execute>thunar</execute></action></item>
   <item label="VLC"><action name="Execute"><execute>vlc</execute></action></item>
   <separator/>
