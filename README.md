@@ -34,4 +34,4 @@ If you prefer to run Openbox, here is one possible configuration you are welcome
 
 * [MacBook Pro](http://en.wikipedia.org/wiki/MacBook_Pro)
 * [Ubuntu](http://www.ubuntu.com/)
-* [Ushahidi.com](http://www.ushahidi.com/)
+* [Ushahidi](http://www.ushahidi.com/)
