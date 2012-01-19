@@ -21,7 +21,7 @@ read USBDEVICE
 wget -cO /tmp/ubuntu-11.10-desktop-amd64.iso http://nl.releases.ubuntu.com/releases/11.10/ubuntu-11.10-desktop-amd64.iso
 
 # Unmount USB Flash Drive
-umount "$USBDEVICE"{,1}
+umount ${USBDEVICE}{,1}
 
 # Format USB Flash Drive to FAT32
 mkfs.vfat -I $USBDEVICE
