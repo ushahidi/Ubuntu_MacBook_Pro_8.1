@@ -40,11 +40,7 @@ mv /tmp/usb/syslinux/isolinux.cfg /tmp/usb/syslinux/syslinux.cfg
 
 # Download Wireless Drivers and Scripts to USB Flash Drive for Offline Installation
 mkdir /tmp/usb/wireless
-curl http://linuxwireless.org/download/compat-wir
-# Delete Ubuntu ISO
-rm /tmp/ubuntu-11.10-desktop-amd64.iso
-
-# Install SYSLINUX Bootloader on USB Flash Driveeless-2.6/compat-wireless-2.6.tar.bz2 > /tmp/usb/wireless/compat-wireless-2.6.tar.bz2
+curl http://linuxwireless.org/download/compat-wireless-2.6/compat-wireless-2.6.tar.bz2 > /tmp/usb/wireless/compat-wireless-2.6.tar.bz2
 wget -O /tmp/usb/wireless/b43-fwcutter-015.tar.bz2 http://bu3sch.de/b43/fwcutter/b43-fwcutter-015.tar.bz2
 wget -O /tmp/usb/wireless/broadcom-wl-5.100.138.tar.bz2 http://www.lwfinger.com/b43-firmware/broadcom-wl-5.100.138.tar.bz2
 wget -O /tmp/usb/wireless/wireless.sh https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/wireless.sh
@@ -53,4 +49,8 @@ wget -O /tmp/usb/wireless/wireless.sh https://raw.github.com/ushahidi/Ubuntu_Mac
 umount /tmp/iso $USBDEVICE
 rmdir /tmp/{iso,usb}
 
+# Delete Ubuntu ISO
+rm /tmp/ubuntu-11.10-desktop-amd64.iso
+
+# Install SYSLINUX Bootloader on USB Flash Drive
 syslinux $USBDEVICE
