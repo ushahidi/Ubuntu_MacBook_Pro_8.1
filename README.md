@@ -17,7 +17,7 @@
 
 ## Openbox
 
-![Screenshot](https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/screenshot.png)
+![Screenshot](http://i.imgur.com/mNODR.jpg)
 
 If you prefer to run Openbox, here is one possible configuration you are welcome to use.
 
