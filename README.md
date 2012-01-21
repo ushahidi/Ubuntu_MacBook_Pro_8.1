@@ -12,7 +12,9 @@
 7. Copy the directory named `wireless` from the USB flash drive to some other location (`/tmp` is great).
 8. Open the terminal, change to this directory and execute the `wireless.sh` script. For example:  
 `cd /tmp/wireless`  
-`bash wireless.sh`
+`sudo bash wireless.sh`  
+`cd ..`  
+`rm -rf wireless`
 9. You can now delete the copied directory and reboot your system for the changes to take effect.
 
 ## Openbox
