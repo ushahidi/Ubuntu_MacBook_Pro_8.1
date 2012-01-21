@@ -45,7 +45,8 @@ echo 'synclient VertTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
 echo 'synclient HorizTwoFingerScroll=1' >> /etc/xdg/openbox/autostart
 
 # Display the Desktop Wallpaper
-echo 'feh --bg-max /usr/share/backgrounds/PurpleDancers_by_Emilio_Merlino.jpg' >> /etc/xdg/openbox/autostart
+wget -O ~/wallpaper.jpg http://i.imgur.com/nBctT.jpg
+echo "feh --bg-max $HOME/wallpaper.jpg" >> /etc/xdg/openbox/autostart
 
 # Visual Display for Apple Hotkeys
 echo 'gpomme &' >> /etc/xdg/openbox/autostart
