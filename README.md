@@ -15,11 +15,15 @@
 `sudo bash wireless.sh`  
 9. You can now delete the copied directory and reboot your system for the changes to take effect.
 
+## Kubuntu
+
+![Screenshot](http://i.imgur.com/uQQJE.png)
+
+    wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/kubuntu.sh | sudo bash
+
 ## Openbox
 
 ![Screenshot](http://i.imgur.com/mNODR.jpg)
-
-If you prefer to run Openbox, here is one possible configuration you are welcome to use.
 
     wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/openbox.sh | sudo bash
 
