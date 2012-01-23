@@ -31,10 +31,6 @@
 
 * [GNU General Public License](http://www.gnu.org/copyleft/gpl.html)
 
-## Support
-
-* [SwiftRiver Google Group](http://groups.google.com/group/swiftriver)
-
 ## See Also
 
 * [MacBook Pro](http://en.wikipedia.org/wiki/MacBook_Pro)
