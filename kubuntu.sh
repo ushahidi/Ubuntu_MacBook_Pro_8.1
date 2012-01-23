@@ -14,10 +14,11 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 # Install Packages
-apt-get update
-apt-get install -y kubuntu-desktop pommed
+sudo apt-get update
+sudo apt-get install -y kubuntu-desktop pommed
 
 # Configure Touchpad
+mkdir -p ~/.kde/Autostart
 echo '#!/bin/bash' >> ~/.kde/Autostart/synclient.sh
 echo 'synclient TapButton2=3' >> ~/.kde/Autostart/synclient.sh
 echo 'synclient TapButton3=2' >> ~/.kde/Autostart/synclient.sh

@@ -19,7 +19,7 @@
 
 ![Screenshot](http://i.imgur.com/uQQJE.png)
 
-    wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/kubuntu.sh | sudo bash
+    wget -qO- https://raw.github.com/ushahidi/Ubuntu_MacBook_Pro_8.1/master/kubuntu.sh | bash
 
 ## Openbox
 
